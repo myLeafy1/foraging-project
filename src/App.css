@@ -37,12 +37,17 @@
   }
 }
 
+div{
+  
+}
+
 .column {
   display: flex;
   flex-direction: row;
   align-items: center;
   overflow: auto;
   /* height: 100vh; */
+  background-color: #EEECE6;
 }
 
 .left {

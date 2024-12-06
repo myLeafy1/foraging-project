@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: auto;
+  /* height: 100vh; */
+}
+
+.left {
+  flex: 2;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  overflow: auto;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+}

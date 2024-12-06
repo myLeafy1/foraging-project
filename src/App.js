@@ -68,7 +68,7 @@ function App() {
         <div className="right">
           <div className="header">
             <img src={LOGO} alt="Logo" className="logo" />
-            <h1>Plants</h1>
+            <h2>Plants</h2>
             <div className="checkboxContainer">
               <label>
                 <input
